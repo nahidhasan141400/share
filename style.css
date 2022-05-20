@@ -129,7 +129,7 @@ body{
     margin-top: 20px;
 }
 .main .con .cardwrp .card:hover{
-    transform: translate(10px , -10px) ;
+    transform: translate(10px , 10px) ;
     box-shadow: -7px 7px 9px #19191983 , -15px 15px 9px #3b3b3b2b;
 }
 .main .btn-w{
