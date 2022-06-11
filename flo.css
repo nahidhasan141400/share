@@ -1,0 +1,147 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+
+body nav {
+  width: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 30px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+body .body {
+  width: 100%;
+  height: calc(100vh - 100px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+body .body .text {
+  width: 100%;
+  text-align: center;
+}
+
+body .body .text h1 {
+  width: 100%;
+  font-size: 100px;
+  font-weight: 400;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .body .text h1 span {
+  width: 100%;
+  letter-spacing: 100px;
+}
+
+body .body .text h1 #o {
+  padding-left: 100px;
+  text-align: left;
+}
+
+body .body .text h1 #t {
+  text-align: right;
+}
+
+body .body img {
+  position: absolute;
+  width: 440px;
+  -webkit-filter: drop-shadow(-10px 15px 15px rgba(0, 0, 0, 0.088));
+          filter: drop-shadow(-10px 15px 15px rgba(0, 0, 0, 0.088));
+}
+
+.enrol {
+  position: absolute;
+  height: 200px;
+  width: 550px;
+  right: 20px;
+  bottom: 100px;
+}
+
+.enrol #line {
+  width: 100px;
+  height: 5px;
+  background: #000;
+  margin-bottom: 20px;
+}
+
+.enrol p {
+  font-size: 20px;
+  margin-bottom: 22px;
+  color: #717171;
+}
+
+.enrol button {
+  border: none;
+  font-size: 22px;
+  font-weight: 700;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.contact {
+  position: absolute;
+  left: 100px;
+  bottom: 50px;
+  width: 400px;
+}
+
+.contact .h {
+  font-size: 25px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.contact .row {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: gray;
+}
+
+.contact .row .f {
+  font-size: 20px;
+}
+
+.contact .row .f p {
+  margin-bottom: 10px;
+}
+/*# sourceMappingURL=flo.css.map */
